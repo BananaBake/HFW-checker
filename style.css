@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcdc3d
+}
+
+header {}
+
+.main {
+  padding: 0.5em;
+  background-color: #ffffff;
+}
+
+#input-area {
+  margin-top: 1.5em;
+}
+
+#input-area h2 {
+  margin-top: 0px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 0.5em;
+  vertical-align: top;
+}
+
+textarea {
+  width: 100%;
+}
+
+.check-button {
+  margin-top: 10px;
+  font-family: inherit;
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: none;
+  background-color: #1a69e8;
+  color: white;
+  padding: 0.25em;
+}
+
+.wide {
+  width: 100%;
+}
+
+.result {
+  width: 23vw;
+}
+
+#text {
+  height: 60vh;
+}
+
+span img {
+  height: 1em;
+}
+
+.right {
+  float: right;
+}
+
+.right span {
+  margin-left: 0.5em;
+}
+
+#words {
+  height: 60vh;
+}
+
+.footer {
+  padding: 0.5em;
+}

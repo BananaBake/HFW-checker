@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>High frequency word checker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tilt+Neon&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" <link href="font.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div class="main">
+    <h1>High frequency word checker</h1>
+    <table id="input-area">
+      <tr>
+        <td class="wide">
+          <h2>Text to check</h2>
+          <textarea id="text"></textarea>
+          <button class="check-button right" onclick="check()">Check</button>
+        </td>
+        <td class="side">
+          <span id="included-label">Included: </span>
+          <span class="right">
+            <span onclick="copy(itc, this)">
+              <img src="copy.svg">
+              Copy
+            </span>
+            <span onclick="download(itc, 'included.txt', this)">
+              <img src="download.svg">
+              Download
+            </span>
+          </span>
+          <br>
+          <ul id="included" class="result"></ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script src="script.js"></script>
+  <script src="words.js"></script>
+  <script src="check.js"></script>
+  <script src="export.js"></script>
+  <div class="footer">
+    <center>
+      <p>Made by <a href="https://github.com/bananabake">bananabake</a></p>
+    </center>
+  </div>
+</body>
+
+</html>
