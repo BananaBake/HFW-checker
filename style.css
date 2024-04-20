@@ -39,9 +39,10 @@ textarea {
 
 .check-button {
   margin-top: 10px;
+  font-size: 2em;
   font-family: inherit;
-  font-size: 1.5em;
   border-radius: 10px;
+  width: 100%;
   border: none;
   background-color: #1a69e8;
   color: white;
@@ -54,6 +55,8 @@ textarea {
 
 .result {
   width: 23vw;
+  height: calc(60vh - (10px + 4.75em));
+  overflow: scroll;
 }
 
 #text {
@@ -70,10 +73,6 @@ span img {
 
 .right span {
   margin-left: 0.5em;
-}
-
-#words {
-  height: 60vh;
 }
 
 .footer {
