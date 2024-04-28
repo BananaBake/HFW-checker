@@ -74,7 +74,7 @@ const words = [
   "than",
   "first",
   "been",
-  "its",
+  "it's",
   "who",
   "now",
   "people",
